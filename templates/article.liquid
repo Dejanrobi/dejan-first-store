@@ -1,0 +1,9 @@
+<h1>{{ article.title }}</h1>
+<p>{{ article.published_at | date: '%B %d, %Y'}}</p>
+<div>
+{{ article.content }}
+</div>
+
+{% if article.comments_enabled? %}
+fwerfwre
+{% endif %}
